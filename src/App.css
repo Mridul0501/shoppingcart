@@ -1,0 +1,38 @@
+.container{
+  margin-top: 10px;
+  //background-image: url("https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+  background-color: whitesmoke;
+}
+
+
+.purchase-card{
+  width: 350px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 6px 25px 0 rgba(0,0,0,0.2);
+  padding: 1em;
+  background-color: white;
+
+  animation-duration: revert;
+  transition: margin-bottom 0.5s;
+
+}
+.purchase-card > .show-grid {
+  padding-bottom:1.5em ;
+}
+
+.item-details-button:focus{
+  shape-outside:none;
+  //color: ghostwhite;
+  //box-shadow: grey;
+}
+
+.price-strike{
+  text-decoration-line: line-through;
+  color: grey;
+}
+.item-details-button::shadow{
+  //box-shadow: deepskyblue;
+}
+.promo-code-button:focus{
+  outline: none;
+
+}
